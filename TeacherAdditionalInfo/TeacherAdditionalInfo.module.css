@@ -1,0 +1,61 @@
+.container {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h5 {
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+.header {
+    width: 100%;
+    text-align: end;
+    border-bottom: 3px solid #999;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.toggle {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle > span {
+    margin-right: 26px;
+}
+
+.arrow_toggle_up {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -6px;
+    right: -8px;
+}
+
+.arrow_toggle_down {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    right: 2px;
+}
+
+.rewards {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 280px;
+    background: #FFF;
+    border-radius: 6px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    width: 100%;
+}
